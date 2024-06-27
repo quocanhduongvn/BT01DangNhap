@@ -49,6 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(32, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 15);
@@ -58,13 +59,15 @@
             // 
             // btnDangNhap
             // 
+            this.btnDangNhap.BackColor = System.Drawing.Color.Lime;
             this.btnDangNhap.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDangNhap.ForeColor = System.Drawing.Color.Black;
             this.btnDangNhap.Location = new System.Drawing.Point(62, 97);
             this.btnDangNhap.Name = "btnDangNhap";
             this.btnDangNhap.Size = new System.Drawing.Size(94, 23);
             this.btnDangNhap.TabIndex = 4;
             this.btnDangNhap.Text = "Đăng Nhập";
-            this.btnDangNhap.UseVisualStyleBackColor = true;
+            this.btnDangNhap.UseVisualStyleBackColor = false;
             this.btnDangNhap.Click += new System.EventHandler(this.btnDangNhap_Click);
             // 
             // label2
@@ -96,13 +99,14 @@
             // 
             // btnThoat
             // 
+            this.btnThoat.BackColor = System.Drawing.Color.Red;
             this.btnThoat.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Location = new System.Drawing.Point(169, 97);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(75, 23);
             this.btnThoat.TabIndex = 9;
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // Form1
@@ -117,6 +121,7 @@
             this.Controls.Add(this.btnDangNhap);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tbTenDangNhap);
+            this.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.Name = "Form1";
             this.Text = "Đăng nhập hệ thống";
             this.Load += new System.EventHandler(this.Form1_Load);
